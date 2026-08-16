@@ -1,0 +1,11 @@
+{
+  "proposals": [
+    {
+      "repo": "owner/repo",
+      "issue": 1,
+      "title": "Example in-flight proposal",
+      "note": "Contact comment posted. Awaiting scope confirmation."
+    }
+  ],
+  "rejected_candidates": []
+}

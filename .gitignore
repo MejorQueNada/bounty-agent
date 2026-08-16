@@ -1,0 +1,17 @@
+# Runtime state (generated)
+deliverables/
+services/notify_state.json
+services/proposals.json
+
+# Secrets — never commit
+secrets.json
+*.secrets.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editor
+.DS_Store
+*.swp
