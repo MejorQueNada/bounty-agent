@@ -38,6 +38,13 @@ cp examples/proposals.example.json services/proposals.json
 bash scripts/run_tests.sh          # 55 tests, no secrets needed
 ```
 
+## Consolidation
+
+This repo is the **single source of truth** for the bounty triage scripts. It
+supersedes `MejorQueNada/bounty-scout`, which is archived (its `scout.py` now
+lives here as `services/scout.py`). All four scripts (scout, watch, notify,
+verify) ship together here, along with the setup guide and tests.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
